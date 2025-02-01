@@ -7,3 +7,39 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* Styles the top navigation bar */
+header {
+    background-color: #2b5d9b; /* Blue color */
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Styles the main content box */
+.container {
+    background-color: white; /* White background for contrast */
+    width: 60%; /* Makes it take 60% of the screen width */
+    margin: 50px auto; /* Centers it horizontally */
+    padding: 50px;
+    border-radius: 10px; /* Rounds the corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adds a slight shadow effect */
+}
+
+/* Styles the welcome text */
+h1 {
+    color: #2b5d9b; /* Blue text */
+    font-size: 36px; /* Large text size */
+    font-weight: bold;
+}
+
+/* Styles the footer (bottom bar) */
+footer {
+    background-color: #2b5d9b;
+    padding: 10px;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
